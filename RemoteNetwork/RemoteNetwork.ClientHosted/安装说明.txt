@@ -1,0 +1,1 @@
+﻿docker run  -d --name=remotenetwork -e TunDrive:TunDriveIP=6.6.6.11 --device=/dev/net/tun --net=host --restart=always --cap-add=NET_ADMIN --cap-add=SYS_ADMIN harbor.qcxt.com:65110/iothub/remotenetwork:latest
